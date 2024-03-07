@@ -2,9 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: demo3
+  title: demo3 demonstration
+  description: project sample to demonstrate demo3
   annotations:
-    github.com/project-slug: arnavrazdann/demo3
+    gitlab.com/readme-path: 'README.md'
+    backstage.io/techdocs-ref: dir:.
 spec:
-  type: other
-  lifecycle: unknown
-  owner: innn
+  type: website
+  owner: innov-india
+  lifecycle: production
