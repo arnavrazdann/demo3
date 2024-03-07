@@ -2,5 +2,6 @@ site_name: "Demo3"
 site_description: "A demo project for Demo3"
 nav:
   - Introduction: index.md
+  - Details: index2.md
 plugins:
   - techdocs-core
